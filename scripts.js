@@ -39,6 +39,6 @@ const startingAfterTax = salary - salary * taxAsDecimal; // salary * taxAsDecima
 const type = `${size}-${lodging}`; // Used interpolation to create a new variable to accurately match the key inside of rent object
 
 const balance =
-  startingAfterTax - expenses.transport - expenses.food - rent[type]; // Added startingAfterTax and changed expenses.rent.type to just rent[type] (You cannot call it with dot notation. Why?)
+  startingAfterTax - expenses.transport - expenses.food - rent[type]; // Added startingAfterTax and changed expenses.rent.type to just rent[type] (You cannot call it with dot notation)
 
 console.log(balance.toFixed(2));
