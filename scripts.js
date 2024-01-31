@@ -7,14 +7,14 @@ const size = "large";
 // Only change the syntax below (not the values or key names)
 
 /**
- * @typedef {object} expenses
- * @property {number} food
- * @property {number} transport
+ * @typedef {object} expenses - An object containing a list of expenses
+ * @property {number} food - Food as an expense, strictly a numerical amount
+ * @property {number} transport - Transport as an expense, strictly a numerical amount
  */
 
 /** @type {expenses} */
 const expenses = {
-  foo: 51.7501,
+  food: 51.7501,
   transport: 10.2,
 };
 
