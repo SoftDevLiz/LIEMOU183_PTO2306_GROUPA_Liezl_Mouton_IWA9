@@ -1,11 +1,20 @@
+// @ts-check
+
 const salary = 4000;
 const lodging = "apartment";
 const size = "large";
 
 // Only change the syntax below (not the values or key names)
 
+/**
+ * @typedef {object} expenses
+ * @property {number} food
+ * @property {number} transport
+ */
+
+/** @type {expenses} */
 const expenses = {
-  food: 51.7501,
+  foo: 51.7501,
   transport: 10.2,
 };
 
